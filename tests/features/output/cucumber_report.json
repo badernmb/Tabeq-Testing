@@ -23,7 +23,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 5000000
             }
           },
           {
@@ -35,9 +35,8 @@
               "location": "features/step_definitions/sample_steps.js:23"
             },
             "result": {
-              "status": "failed",
-              "duration": 19139000000,
-              "error_message": "Error: [init({\"deviceName\":\"Bader\",\"platformName\":\"Android\",\"platformVersion\":\"5.0.2\",\"app\":\"//Users//Shared//Jenkins//Home//workspace//Install_dependencies//platforms//android//app//build//outputs//apk//debug//app-debug.apk\",\"appPackage\":\"io.ionic.starter\",\"autoGrantPermissions\":true,\"unicodeKeyboard\":true,\"resetKeyboard\":true})] The environment you requested was unavailable.\nAn unknown server-side error occurred while processing the command. Original error: JAVA_HOME is not set currently. Please set JAVA_HOME.\n    at /Users/baderalbulayhis/Desktop/Demo/Android_Testing/node_modules/wd/lib/webdriver.js:138:15\n    at Request._callback (/Users/baderalbulayhis/Desktop/Demo/Android_Testing/node_modules/wd/lib/http-utils.js:89:7)\n    at Request.self.callback (/Users/baderalbulayhis/Desktop/Demo/Android_Testing/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:182:13)\n    at Request.<anonymous> (/Users/baderalbulayhis/Desktop/Demo/Android_Testing/node_modules/request/request.js:1161:10)\n    at Request.emit (events.js:182:13)\n    at IncomingMessage.<anonymous> (/Users/baderalbulayhis/Desktop/Demo/Android_Testing/node_modules/request/request.js:1083:12)\n    at Object.onceWrapper (events.js:273:13)\n    at IncomingMessage.emit (events.js:187:15)\n    at endReadableNT (_stream_readable.js:1094:12)\n    at process.internalTickCallback (internal/process/next_tick.js:72:19)"
+              "status": "passed",
+              "duration": 37483000000
             }
           },
           {
@@ -49,7 +48,8 @@
               "location": "features/step_definitions/sample_steps.js:51"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1725000000
             }
           },
           {
@@ -61,7 +61,8 @@
               "location": "features/step_definitions/sample_steps.js:61"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 808000000
             }
           },
           {
@@ -73,7 +74,8 @@
               "location": "features/step_definitions/sample_steps.js:68"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2345000000
             }
           },
           {
@@ -85,7 +87,8 @@
               "location": "features/step_definitions/sample_steps.js:75"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 788000000
             }
           },
           {
@@ -97,7 +100,8 @@
               "location": "features/step_definitions/sample_steps.js:82"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 796000000
             }
           },
           {
@@ -109,7 +113,8 @@
               "location": "features/step_definitions/sample_steps.js:89"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2297000000
             }
           },
           {
@@ -119,8 +124,7 @@
               "location": "features/support/hooks/hooks.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]

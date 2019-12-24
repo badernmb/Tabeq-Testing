@@ -8,7 +8,7 @@ var desiredCaps = {
   deviceName: 'Bader',
   platformName: 'Android',
   platformVersion: '5.0.2',
-  app:'Users//baderalbulayhis//Desktop//app-debug.apk',
+  app:'Users/baderalbulayhis/Desktop/app-debug.apk',
   appPackage:'io.ionic.starter',
   autoGrantPermissions:true,
   unicodeKeyboard:true,
