@@ -8,7 +8,7 @@ var desiredCaps = {
   deviceName: 'Bader',
   platformName: 'Android',
   platformVersion: '5.0.2',
-  app:'Users/baderalbulayhis/Desktop/app-debug.apk',
+  app:'/Users/baderalbulayhis/Desktop/apk/app-debug.apk',
   appPackage:'io.ionic.starter',
   autoGrantPermissions:true,
   unicodeKeyboard:true,
@@ -20,7 +20,7 @@ var desiredCaps = {
 async function test(){
 
 await driver.init(desiredCaps);
-await delay(5000);
+await delay(7000);
 //await driver.setImplicitWaitTimeout(10000);
 
 
@@ -67,6 +67,12 @@ let el1 = await driver.elementByXPath("/hierarchy/android.widget.FrameLayout/and
 //let el1 = await driver.elements("id", "demo");
 //let title = await driver.title();
 
+
+let screenshot = await driver.takeScreenshot();
+//var decodedImage = new Buffer(png, 'base64').toString('binary');
+  var fs = require("fs");
+
+  fs.writeFile("error.jpg", new Buffer(await screenshot, "base64"), function(err) {});
 
 
 

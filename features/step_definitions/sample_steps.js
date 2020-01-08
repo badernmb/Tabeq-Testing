@@ -92,8 +92,16 @@ Then('The message should be {string}', async function (text) {
 await delay(2000);
 let el1 = await driver.elementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View");
 
-console.log(await el1.text());
+//console.log(await el1.text());
+
+//try{
 assert.equal(await el1.text(), text);
+//}
+//catch(error){
+
+//console.log("expected = " + text +" Actual = " +await el1.text());
+
+//}
 
 });
 

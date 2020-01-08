@@ -79,11 +79,14 @@
       "resolved": "https://registry.npmjs.org/aws4/-/aws4-1.6.0.tgz",
       "version": "1.6.0"
     },
+    "b64-to-image": "^1.0.2",
     "balanced-match": {
       "integrity": "sha1-ibTRmasr7kneFk6gK4nORi1xt2c=",
       "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz",
       "version": "1.0.0"
     },
+    "base64-img": "^1.0.4",
+    "base64-to-image": "^1.0.2",
     "bcrypt-pbkdf": {
       "integrity": "sha1-Y7xdy2EzG5K8Bf1SiVPDNGKgb40=",
       "optional": true,

@@ -8,4 +8,4 @@ Scenario: scenario1
    When I input the street as "Aba Baker"
    When I input the comment as "Nothing"
    When I click to report
-   Then The message should be "Report has been sent successfully"
+   Then The message should be "Report has been sent successfullyr"
