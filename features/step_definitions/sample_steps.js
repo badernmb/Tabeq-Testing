@@ -44,7 +44,7 @@ var desiredCaps = {
   		
   	
 await driver.init(desiredCaps);
-await driver.resetApp();
+await driver.removeAppFromDevice('io.ionic.starter');
 await delay(8000);
 
 
