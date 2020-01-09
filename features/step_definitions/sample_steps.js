@@ -44,7 +44,9 @@ var desiredCaps = {
   		
   	
 await driver.init(desiredCaps);
+await driver.resetApp();
 await delay(8000);
+
 
 
 
