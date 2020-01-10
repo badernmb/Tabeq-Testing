@@ -38,11 +38,10 @@ var desiredCaps = {
   autoGrantPermissions:true,
   unicodeKeyboard:true,
   resetKeyboard:true,
-  resetOnSessionStartOnly:true,
-  noReset:false,
+  fullReset:true
 };
   		
-await driver.removeAppFromDevice('io.ionic.starter');
+//await driver.removeAppFromDevice('io.ionic.starter');
 
 await driver.init(desiredCaps);
 await delay(8000);
